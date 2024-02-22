@@ -1,13 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 body {
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
-  display: flex;
   background-color: #cea2fd;
   overflow: hidden;
 }
+
+.message {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+.message h1 {
+  margin-bottom: 0;
+}
+
 
 .jewellery-box {
   position: relative;
@@ -238,10 +254,10 @@ input#open {
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 30px;
   transition: .3s;
-  width:300px;
+  width:500px;
   text-align: center;
-  top:-165px;
-  left:-130px;
+  top:-400px;
+  left:-250px;
   opacity:0;
   text-shadow: 0 0 3px #cc88e9, 0 0 5px #000000; 
 }
